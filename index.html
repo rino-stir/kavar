@@ -12,7 +12,7 @@
   <meta http-equiv="Content-Security-Policy"
   content="
     default-src 'self';
-    script-src  'self' 'unsafe-inline' 'unsafe-eval'
+    script-src  'self' 'unsafe-inline' 'unsafe-eval' 
                 https://unpkg.com https://code.jquery.com;
     style-src   'self' 'unsafe-inline'
                 https://api.fontshare.com https://code.jquery.com https://fonts.googleapis.com;
@@ -21,7 +21,7 @@
     connect-src 'self'
                 https://apisandbox.openbankproject.com https://unpkg.com;
     img-src     'self' https://code.jquery.com https://pplx-res.cloudinary.com https://user-gen-media-assets.s3.amazonaws.com data: blob:;
-    frame-src   'none';
+    frame-src   'self' https://www.google.com;
     object-src  'none';
     base-uri    'self';
   ">
